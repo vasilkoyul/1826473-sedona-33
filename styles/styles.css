@@ -55,6 +55,9 @@ body {
 
  .main-info{ text-align: center;}
 
+
+ .sedona1 {background: no-repeat url("../images/index-background.jpeg");}
+
   /* Title */
 .advantages-title {
     font-size: 24px;
@@ -92,3 +95,8 @@ body {
     background: no-repeat url("../images/background.jpeg");
     
   }
+
+/* Catalog */
+
+  .catalog-filter{ background: no-repeat url("../images/catalog-background.jpeg");}
+
