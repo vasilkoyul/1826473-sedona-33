@@ -48,9 +48,7 @@ body {
       font-size:20px;
     line-height: 26px;
     font-weight: 700;
-  
     color:  #000000;
-    background-color: #ffffff;
     text-decoration: none;}
 
  .main-info{
@@ -101,3 +99,103 @@ body {
 
   .catalog-filter{ background: no-repeat url("../images/catalog-background.jpeg");}
 
+.hotel-card-title{ font-size: 24px;
+  line-height:31px;
+  font-weight: 700;
+  color: #000000;
+  background-color:#ffffff;
+}
+.control{font-size: 18px;
+  line-height:23px;
+  color:#ffffff;}
+
+  .catalog-filter-title{font-size: 20px;
+    line-height:25px;
+    font-weight: 700;
+    color:#ffffff;}
+
+.pagination-item{
+  font-size:20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align:center;
+  color: #ffffff;
+  background-color: #83B3D3;
+  text-decoration: none;
+
+  }
+  
+  a{text-decoration:none;
+  }
+
+  h2{font-size:30px;
+    line-height: 39px;
+    font-weight: 700;
+  }
+
+
+  .inner-header-title{font-size:60px;
+      line-height: 68px;
+      font-weight: 700;
+      color: #ffffff;
+
+    }
+
+   .hotel-card-type{font-size:18px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #333333;
+  }
+   
+  .hotel-card-price {font-size:18px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #333333;
+  }
+
+  .hotel-card-button-more{font-size:16px;
+    line-height: 21px;
+    background-color:#756257;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    }
+
+    .hotel-card-button-chose{font-size:16px;
+      line-height: 21px;
+      background-color: #83B3D3;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #ffffff;}
+      
+      .hotel-card-ranking{font-size:16px;
+        line-height: 21px;
+        background-color: #f2f2f2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color:#333333;}
+
+        .fa-star{
+        line-height: 17px;
+         color:#83B3D3;
+        }
+
+      
+        sign-up-title{ 
+          font-size: 30px;
+          line-height: 36px;
+          font-weight: 700;
+       
+          text-decoration: none;
+          text-transform: uppercase}
+
+          .button-off {
+            font-family: inherit;
+            font-size: 18px;
+            line-height: 23px;
+            font-weight: 700;
+            text-align: center;
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;}
