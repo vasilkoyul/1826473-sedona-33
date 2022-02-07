@@ -10,10 +10,10 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <header class="page-header">
             <nav class="navigation">
-                <ul class="navigation-list">
                     <a class="logo" href="index.html">
                         <img class="logo-Sedona" src="images/logo.svg" width="139px" height="70px" alt="Логотип Седона"> 
                     </a>
+                    <ul class="navigation-list">
                     <li class="navigation-item">
                         <a class="navigation-link" href="index.html" >Главная</a>
                     </li>
@@ -41,7 +41,9 @@
                 </ul>
             </nav>
         </header>
-        <main class="main-inner">
+        <main class="main-inner main-container">
+            <div class="page-container">
+          
             <h1 class="inner-header-title">Гостиницы Седоны</h1>
             <ul class="breadcrumbs">
                 <li class="breadcrumbs-item">
@@ -117,8 +119,8 @@
             <a class="button" href="#">
                 <span class="visually-hidden">Показать список</span>
             </a>
-            <ul>
-                <li class="hotel-card">
+            <ul class="hotel-card"> 
+                <li class="hotel-card-item">
                     <a class="hotel-card-link" href="hotel.html">
                         <img class="hotel-card-image" src="images/hotels/hotel1.jpeg" alt="Амара ресорт">
                         <h3 class="hotel-card-title">Amara Resort & Spa</h3>
@@ -135,7 +137,7 @@
                     </section>
                     <b class="hotel-card-ranking">Рейтинг: 8,5</b>
                 </li>
-                <li class="hotel-card">
+                <li class="hotel-card-item">
                     <a class="hotel-card-link" href="hotel.html">
                         <img class="hotel-card-image" src="images/hotels/hotel2.jpeg" alt="Десерт Куил Инн">
                         <h3 class="hotel-card-title">Desert Quail Inn</h3>
@@ -152,7 +154,7 @@
                     </section>
                     <b class="hotel-card-ranking">Рейтинг: 8,9</b>
                 </li>
-                <li class="hotel-card">
+                <li class="hotel-card-item">
                     <a class="hotel-card-link" href="hotel.html">
                         <img class="hotel-card-image" src="images/hotels/hotel3.jpeg" alt="Виллас ат Поко Диабло">
                         <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
@@ -167,7 +169,7 @@
                     </section>
                     <b class="hotel-card-ranking">Рейтинг: 9,2</b>
                 </li>
-                <li class="hotel-card">
+                <li class="hotel-card-item">
                     <a class="hotel-card-link" href="hotel.html">
                         <img class="hotel-card-image" src="images/hotels/hotel4.jpeg" alt="ГринТри Инн">
                         <h3 class="hotel-card-title">GreenTree Inn</h3>
@@ -182,12 +184,14 @@
                     </section>
                     <b class="hotel-card-ranking">Рейтинг: 9,2</b>
                 </li>
-                <li class="pagination-item">
-                    <a class="pagination-link pagination-next" href="#">
-                        <span class="visually-hidden">Загрузить ещё</span>
-                    </a>
-                </li>
             </ul>
+            <ul>
+            <li class="pagination-item">
+                <a class="pagination-link pagination-next" href="#">
+                    <span class="visually-hidden">Загрузить ещё</span>
+                </a>
+            </li>
+        </ul>
             <ul class="pagination">
                 <li class="pagination-item">
                     <a class="pagination-link pagination-prev pagination-disabled"></a>
@@ -219,14 +223,16 @@
             </select>
             <section class="sign-up">
                 <h2 class="sign-up-title"> Подпишитесь на рассылку </h2>
-                <p class="sign-up-description"> Только полезная информация и никакого спама, честное бойскаутское! </p>
+                <p class="sign-up-description"> Только полезная информация и никакого спама,<br> честное бойскаутское! </p>
                 <form action="email">
                     <input type="email" name="email" value="Ваш e-mail">
                     <button class="button">Подписаться</button>
                 </form>
             </section>
+        </div>
         </main>
-        <footer>
+        <footer class="page-footer">
+            <div class="page-footer-container">
             <section class="footer-social">
                 <h2 class="visually-hidden">Соц сети</h2>
                 <ul class="footer-social-list">
@@ -251,11 +257,13 @@
                 </ul>
             </section>
             <section class="contacts">
-                <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-                <a class="logo-html" href="index.html"> 
-                    <img class="logo-html" src="images/logo_htmlacademy.svg" width="115px" height="34px" alt="Логотип HTML-academy"> 
-                </a>
-            </section>
+				<a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a></section>
+				<section class ="logo-html">
+				<a class="logo-html" href="index-html.html"> 
+					<img class="logo-html" src="images/logo_htmlacademy.svg" width="115px" height="34px" alt="Логотип HTML-academy"> 
+				</a>
+			</section>
+        </div>
         </footer>
     </body>
 </html>
