@@ -44,6 +44,16 @@ body {
   background-color:  #ffffff;
  
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 /* Pages */
 .page-header {
@@ -59,9 +69,12 @@ body {
 margin-right:30px;}
 
 .navigation-list {
+  display: flex;
+  flex-wrap: wrap; 
   width: 450px;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 .navigation-user {
   max-width: 300px;
@@ -69,11 +82,19 @@ margin-right:30px;}
 }
 
 .navigation-link {
+  display: block;
+  padding: 20px 17px;
     font-size:20px;
   line-height: 26px;
   font-weight: 700;
   color:  #000000;
   text-decoration: none;}
+
+
+  .navigation-user .navigation-link {
+    min-width: 18px;
+    min-height: 18px;
+  }
 
 .main-info{
  text-align: center;}
@@ -86,30 +107,59 @@ margin-right:30px;}
   margin: 0 auto;
 }
 
+/*Welcome1*/
 .sedona1 {background: no-repeat url("../images/index-background.jpeg");}
 
-/* List */
-.advantages-list {
-display: flex;
-flex-wrap: wrap;
-margin: 0;
-padding: 0;
-align-items: flex-start;
+.welcome-title{margin:0;
+  margin:51px 371px 82px;}
 
+/*Sedona2 sections*/
+
+.sect-one{
+   margin:0;
+  padding:0;
+  width:720px;
+  line-height:36px;
+  margin-top:63px;
+  margin-left:240px;
+  font-weight: 700;
+text-transform: uppercase;}
+
+.sect-two{ margin:0;
+  padding:0;
+  width:720px;
+  line-height:36px;
+margin:31px 240px 80px 240px; 
 }
 
-/* Item */
+
+/* List */
+.advantages-list { 
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  align-items: flex-start; 
+}
+
+/* Item */ 
 .advantages-item {
 width: 400px;
+f
 }
 /* Title */
 .advantages-title {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-}
-/*Buttons */
+  margin:0;
 
+}
+
+.advantages-description{margin:0;}
+
+
+/*Buttons */
 .button {
   font-family: inherit;
   font-size: 20px;
@@ -122,7 +172,9 @@ width: 400px;
 }
 
 .button-all{background-color:#756257 ;
-    line-height:36px}
+    line-height:36px;
+    margin:0;
+ }
 
   
 .sign-up-background{
@@ -137,7 +189,7 @@ width: 400px;
 /* Catalog */
 
 
-.catalog-filter{ background: no-repeat url("../images/catalog-background.jpeg");}
+.page-container{ background: no-repeat url("../images/catalog-background.jpeg");}
 
 .hotel-card{
 width: 1056px;
