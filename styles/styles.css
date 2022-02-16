@@ -140,12 +140,22 @@ margin:31px 240px 80px 240px;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  align-items: flex-start; 
+  list-style-type: none;
+  width:100%;
+  
+ 
 }
 
 /* Item */ 
 .advantages-item {
 width: 400px;
+min-height:384px;
+
+
+
+
+
+
 }
 /* Title */
 .advantages-title {
@@ -198,7 +208,7 @@ width: 1056px;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-padding: 0px;
+padding: 0;
 align-items: flex-start;
 }
 .hotel-card-item{
