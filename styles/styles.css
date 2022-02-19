@@ -289,6 +289,7 @@ text-decoration: none;
   padding: 30px 72px; 
   background-color: #ffffff;
   height:55px;
+  
 }
 
 .pagination {
@@ -342,7 +343,7 @@ a{text-decoration:none;
   min-width:337px;
   padding-right:192px;
 }
-
+.hotel-search{ min-height:417px;}
 
 .inner-header-title{font-size:60px;
     line-height: 68px;
@@ -376,6 +377,7 @@ a{text-decoration:none;
 .select-control{height:48px;
 width:287px;
 margin-right:81px;}
+
 
  .hotel-card-type{font-size:18px;
   line-height: 23px;
