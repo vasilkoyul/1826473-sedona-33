@@ -267,12 +267,12 @@ height:384px;
 
 .hotel-card{
 width: 1056px;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
+display: grid;
+grid-template-columns: 340px 340px 340px;
+column-gap: 18px;
+row-gap:10px ;
 padding: 0;
 margin:0;
-align-items: flex-start;
 list-style-type: none;
 
 }
@@ -294,7 +294,8 @@ color: #000000;
 background-color:#ffffff;
 }
 
-.type-price{display: flex;}
+.type-price{display: flex;
+margin-bottom:16px;}
 
 .hotel-card-type{display:flex;
 
@@ -340,6 +341,7 @@ background-color:#ffffff;
     padding-left:26px;
     text-align: center;
     padding:10px 0;
+    margin-left:26px;
    
    
     }
@@ -353,11 +355,14 @@ background-color:#ffffff;
       padding-left:26px;
       text-align: center;
       padding:10px 0;
+      margin-left:26px;
     
     }
     
     .star-ranking{display: flex;
       margin-top: auto;
+      margin-left:auto;
+  
  
  }
     .hotel-card-ranking{font-size:16px;
@@ -368,22 +373,41 @@ background-color:#ffffff;
       color:#333333;
     text-align: center;
     padding:10px 0;
-  width:160px;}
+  width:160px;
+  
+
+}
 
       .fa-star{
       line-height: 17px;
        color:#83B3D3;
        padding:10px 0;
+      
+       
+       
       }
 
 .control{font-size: 18px;
 line-height:23px;
 color:#ffffff;}
 
+.catalog-filter{margin:0;
+padding:0;
+margin-top:45px;
+list-style-type:none;
+
+}
+
 .catalog-filter-title{font-size: 20px;
   line-height:25px;
   font-weight: 700;
-  color:#ffffff;}
+  color:#ffffff;
+}
+.services-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 
 .pagination a{
 font-size:20px;
