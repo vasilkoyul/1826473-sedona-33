@@ -393,6 +393,11 @@ margin:0;
 list-style-type: none;
 
 }
+
+.hotel-card-image:hover{
+  opacity: 0.6;}
+
+
 .hotel-card-item {display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -456,6 +461,9 @@ margin-bottom:16px;}
   border:3px solid #83B3D3;}
 
 
+  .hotel-card-button-more:active{background-color:#615048;
+    opacity:0.3;}
+
   .hotel-card-button-chose{font-size:16px;
     line-height: 21px;
     background-color: #83B3D3;
@@ -479,6 +487,9 @@ margin-bottom:16px;}
          background-color:#68a2ca;
        border:3px solid #756257;}
 
+       .hotel-card-button-chose:active{background-color:#68a2ca;
+        opacity:0.3;}
+
 
     .hotel-card-button-chose-green{ font-size:16px;
       line-height: 21px;
@@ -494,7 +505,14 @@ margin-bottom:16px;}
       border-radius: 4px;
     
     }
-    
+
+    .hotel-card-button-chose-green:hover{background-color:#6C9E42;}
+    .hotel-card-button-chose-green:focus{background-color:#6C9E42;
+    border:3px solid #756257;}
+
+    .hotel-card-button-chose-green:active{background-color:#6C9E42;
+    opacity:0.3;}
+
     .star-ranking{display: flex;
     margin-top: auto;
       width:100%;
@@ -604,7 +622,7 @@ text-decoration: none;
 border: 3px solid #756257;}
 
 .pagination-link:active{background-color: #68a2ca;
- opacity: 0,3;}
+ opacity: 0.3;}
 
 
 
