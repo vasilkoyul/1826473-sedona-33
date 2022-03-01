@@ -39,7 +39,7 @@
                         </a>
                     </li>
                     <li class="navigation-item">
-                        <a class="navigation-link" href="#">Хочу сюда</a>
+                        <a class="navigation-link-want" href="#">Хочу сюда!</a>
                     </li>
                 </ul>
             </nav>
@@ -243,14 +243,10 @@
                 </li>
             </div>
             </ul>
+
+            <button class="button pagination-get-more" type="button"> Загрузить ещё</button> 
             <div class="pagination-container">
-            <ul>
-                <li class="pagination-item">
-                <a class="pagination-link pagination-next" href="#">
-                    <span class="visually-hidden">Загрузить ещё</span>
-                </a>
-            </li>
-        </ul>
+    
             <ul class="pagination">
                 <li class="pagination-item">
                     <a class="pagination-link pagination-prev pagination-disabled"></a>
@@ -285,10 +281,14 @@
             <section class="sign-up">
                 <h2 class="sign-up-title"> Подпишитесь на рассылку </h2>
                 <p class="sign-up-description"> Только полезная информация и никакого спама,<br> честное бойскаутское! </p>
+             
                 <form action="email">
+                    <div class="email">
                     <input type="email" name="email" value="Ваш e-mail">
-                    <button class="button">Подписаться</button>
+                    <button class="button button-sign-up">Подписаться</button>
+                </div>
                 </form>
+                
             </section>
         </div>
         </main>
@@ -317,6 +317,7 @@
                     </li>   
                 </ul>
             </section>
+         
             <section class="contacts">
 				<a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a></section>
 				<section class ="logo-html">
@@ -324,6 +325,7 @@
 					<img class="logo-html" src="images/logo_htmlacademy.svg" width="115px" height="34px" alt="Логотип HTML-academy"> 
 				</a>
 			</section>
+        
         </div>
         </footer>
     </body>
