@@ -319,11 +319,32 @@ height:384px;
   margin-left: 75px;
   }
 
+  .card-grid-toggle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background-color: #FFFFFF;
+    outline: 2px solid #e6e6e6;
+  }
+  
+  .card-grid-toggle svg {
+    fill: #000000;
+  }
 
-
+  .card-grid-toggle-current {
+    background-color: #ffffff;
+  }
+  
+  .card-grid-toggle-current svg {
+    fill: #000000;
+    outline: 2px solid #000000;
+  }
 
 /*Buttons */
 .button {display: inline-block;
+  box-sizing: border-box;
   font-family: inherit;
   font-size: 20px;
   line-height: 26px;
@@ -401,6 +422,8 @@ outline: 3px solid #756257;}
 background-color: transparent;
 }
 
+.button-ligth {box-sizing: border-box;
+position: absolute;}
 
 /* Catalog */
 
@@ -721,7 +744,14 @@ a{text-decoration:none;
     list-style-type: none;
   }
 .breadcrumbs-link{  margin-right: 26px;
-  color: inherit;}
+  color: inherit;
+  padding-right: 44px;
+  background-image: url("../images/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-size:5px 8px;
+  background-position: center right 20px;
+}
+.breadcrumbs-item{order:-1;}
 
   .sorting-container {
     display: flex;
@@ -735,6 +765,10 @@ a{text-decoration:none;
     width: 48px;
     height: 48px;
   }
+
+  .sorting-type {
+    margin-right: auto;
+  } 
 
 .select-control{height:48px;
 width:287px;

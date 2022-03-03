@@ -47,14 +47,18 @@
         </header>
         <main class="main-inner main-container">
             <div class="page-container">
-          
-            <h1 class="inner-header-title">Гостиницы Седоны</h1>
+            <h1 class="inner-head-title">Гостиницы Седоны</h1>
+
             <ul class="breadcrumbs">
-                <li class="breadcrumbs-item">
-                    <a class="breadcrumbs-link" href="index.html">Главная</a>
+                <li class="breadcrumbs-item-1">
+                    <li class="breadcrumbs-item-2">
+                     <a class="breadcrumbs-link" href="index.html"> <div class="visually-hidden" >Главная </div> </a>
+                    </li>
+                     <li class="breadcrumbs-item-2">
+                     <svg width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 .3 0 5.8V12h12V5.8L6 .3ZM11 11H1V6.2l5-4.5 5 4.5V11Z" fill="#fff"/><path d="M4 10h1V7.5h2V10h1V6.5H4V10Z" fill="#fff"/></svg>
                 </li>
-                <li class="breadcrumbs-item">
-                    <a class="breadcrumbs-link">Гостиницы Седоны </a>
+                <li class="breadcrumbs-item-2">
+                    <a class="breadcrumbs-link">Гостиницы  </a>
                 </li>
             </ul>
             <section class="catalog-products">
@@ -109,15 +113,15 @@
             
             <div class="sorting-container">
             <h2 class="hotel-founds">Найдено гостиниц: 38</h2>
-          
+            <div class="select sorting-type">
             <select class="select-control" aria-label="Сортировка">
                 <option value="popular">Сначала дешёвые</option>
                 <option value="cheap">Сначала дорогие</option>
                 <option value="expensive">Сначала популярные</option>
             </select>
-            <a href="#" class="button button-light"></a>
-            <a class="button-show-cards" href="#">
-                <span class="visually-hidden">Показать карточки</span>
+        </div>
+            <a href="#" class="card-grid-toggle card-grid-toggle-current" type="button">
+               
                 <svg class="navigation-icon"  aria-hidden="true" focusable="false" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2 0H0V2H2V0Z" fill="black"/>
                     <path d="M16 0H4V2H16V0Z" fill="black"/>
@@ -128,20 +132,22 @@
                     <path d="M2 12H0V14H2V12Z" fill="black"/>
                     <path d="M16 12H4V14H16V12Z" fill="black"/>
                     </svg>
-                    
+                    <span class="visually-hidden">Показать карточки</span>   
 
             </a>
-            <a class="button-slide-show" href="#">
-                <span class="visually-hidden">Показать слайд-шоу</span>
+            <a href="#" class="card-grid-toggle" type="button">
+                
                 <svg class="navigation-icon"  aria-hidden="true" focusable="false" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M16 12H0V14H16V12Z" fill="black"/>
                     <path d="M14 2V8H2V2H14ZM16 0H0V10H16V0Z" fill="black"/>
                     </svg>
+                    <span class="visually-hidden">Показать слайд-шоу</span>
             </a>
-            <a class="button-show-list" href="#">
-                <span class="visually-hidden">Показать список</span>
+            <a href="#" class="card-grid-toggle" type="button">
+                
                 <svg class="navigation-icon"  aria-hidden="true" focusable="false" width="16" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 0H0v6h4V0ZM16 0h-4v6h4V0ZM10 0H6v6h4V0ZM4 8H0v6h4V8ZM16 8h-4v6h4V8ZM10 8H6v6h4V8Z" fill="#000"/></svg>
-            </a>
+                <span class="visually-hidden">Показать список</span>
+        </a>
         </div>
             <ul class="hotel-card"> 
                 <li class="hotel-card-item">
