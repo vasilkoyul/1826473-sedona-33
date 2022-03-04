@@ -294,9 +294,11 @@ height:384px;
 
 /* Title */
 .icon-1{ background: no-repeat url("../images/icons/icon-1.svg");
+ 
 color: #81B3D2;
 height: 72px;
-padding-top:89px;}
+padding-top:89px;
+}
 .icon-2
 {background: no-repeat url("../images/icons/icon-2.svg");
   color: #81B3D2;
@@ -971,6 +973,7 @@ width:1200px;
   height: 60px;
   width: 600px;
   border-radius: 10px 0px 0px 10px;
+
 }
 
 .ubutton{

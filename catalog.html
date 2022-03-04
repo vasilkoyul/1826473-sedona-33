@@ -289,12 +289,17 @@
                 <h2 class="sign-up-title"> Подпишитесь на рассылку </h2>
                 <p class="sign-up-description"> Только полезная информация и никакого спама,<br> честное бойскаутское! </p>
              
-                <form action="email">
+                <form class="newsletter" method="post" action="email">
+                    <input type="email" placeholder="Ваш e-mail" class="emailactive" required="">
+                    <a class="ubutton" href="#">Подписаться</a>
+            </form>
+
+               <!--  <form action="email">
                     <div class="email">
                     <input type="email" name="email" value="Ваш e-mail">
                     <button class="button button-sign-up">Подписаться</button>
                 </div>
-                </form>
+                </form> -->
                 
             </section>
         </div>
