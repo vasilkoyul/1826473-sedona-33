@@ -293,13 +293,20 @@ height:384px;
 }
 
 /* Title */
-.icon-1
-{margin-top:0;
-  padding-top:89px;}
+.icon-1{ background: no-repeat url("../images/icons/icon-1.svg");
+color: #81B3D2;
+height: 72px;
+padding-top:89px;}
 .icon-2
-{padding-top:91px;}
+{background: no-repeat url("../images/icons/icon-2.svg");
+  color: #81B3D2;
+  height: 70px;
+  padding-top:91px;}
 .icon-3
-{padding-top:85px;}
+{padding-top:85px;
+  background: no-repeat url("../images/icons/icon-3.svg");
+  color: #81B3D2;
+  height: 75px;}
 
 .advantages-title {
   font-size: 24px;
@@ -403,8 +410,11 @@ outline: 3px solid #756257;}
   background: no-repeat url("../images/background.jpeg");
   color:#ffffff;
   height:411px;
- 
 
+}
+.sign-up-div{
+  width: 800px;
+  text-align: center;
 }
 
 
@@ -485,11 +495,14 @@ margin-bottom:16px;}
   padding-left:25px;
 }
 
-.more-chose{display: flex;
+.more-chose{
+  display: flow-root;
   flex-wrap: wrap;
+  width: 100%;
   
 }
-.hotel-card-button-more{font-size:16px;
+.hotel-card-button-more{
+  font-size:16px;
   line-height: 21px;
   background-color:#756257;
   font-weight: 700;
@@ -514,17 +527,18 @@ margin-bottom:16px;}
   .hotel-card-button-more:active{background-color:#615048;
     opacity:0.3;}
 
-  .hotel-card-button-chose{font-size:16px;
+  .hotel-card-button-chose{
+    font-size:16px;
     line-height: 21px;
     background-color: #83B3D3;
     font-weight: 700;
     text-transform: uppercase;
     color: #ffffff;
-    width:140px;
+    width: 150px;
     padding-left:26px;
     text-align: center;
     padding:10px 0;
-    margin-left:26px;
+      margin-left:26px;
     border-radius: 4px;
    
     }
@@ -541,13 +555,14 @@ margin-bottom:16px;}
         opacity:0.3;}
 
 
-    .hotel-card-button-chose-green{ font-size:16px;
+    .hotel-card-button-chose-green{ 
+      font-size:16px;
       line-height: 21px;
       background-color: #6C9E42;
       font-weight: 700;
       text-transform: uppercase;
       color: #ffffff;
-      width:140px;
+      width: 150px;
       padding-left:26px;
       text-align: center;
       padding:10px 0;
@@ -807,17 +822,28 @@ width:575px;
         font-weight: 700;
         text-decoration: none;
         text-transform: uppercase;
+        text-align: center;
+        align-items: center;
         margin:0;
         padding:0;
         padding: 94px 240px 29px 240px;
-        width: 720px;
+        width: 100%;
         margin-top:93px;
       }
        
-    .sign-up-description{margin:0;
-    padding:0;
-  margin:0 240px 46px 240px;
-width:720px;}
+    .sign-up-description{
+      /* margin:0;
+      padding:0; */
+      font-family: PT Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 26px;
+      margin:0 0px 46px 0px;
+      width:100%;
+      text-align: center;
+      align-items: center;
+    }
 
 
 
@@ -845,8 +871,8 @@ margin: 0 auto;
 
 
 .footer-social-list {
-  display: flex;
   flex-wrap: wrap; 
+  display: flex;
 margin: 0;
 padding: 0;
 list-style-type: none;
@@ -902,6 +928,7 @@ width: 180px;
 
 
 .contacts-phone{
+  display: flex;
   font-size: 40px;
   line-height:40px;
   font-weight: 700;
@@ -920,7 +947,8 @@ width: 180px;
 
 
 .logo-html
-{margin:0;
+{
+  margin:0;
 margin-top: 42px;
 margin-bottom:44px;
 margin-right:72px;
@@ -937,3 +965,36 @@ width:1200px;
 
 }
 
+.emailactive{
+  display: flex;
+  background: #F2F2F2;
+  height: 60px;
+  width: 600px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.ubutton{
+  display: flex;
+  background-color: #83B3D3;
+  height: 60px;
+  width: 200px;
+  text-align: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.newsletter{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.newsletter a{
+  text-decoration: #ffffff;
+}
