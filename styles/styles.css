@@ -710,16 +710,65 @@ position: relative;
 display: block;
 
 }
+/* Label */
+.control-label {
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.catalog-filter-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.catalog-filter-item:not(:last-child) {
+  margin-bottom: 13px;
+}
 
 /* Mark */
 .control-mark {
   position: absolute;
-  top: 2px;
-  left: 0;
+  left:0;
   width: 20px;
   height: 20px;
-  border: 2px solid #242424;
+  background-color:#FFFFFF;
+  border-radius: 4px;
+  }
+
+.control:hover .control-mark {
+  background-color:#FFFFFF;
+  opacity: 0.6;
 }
+.control:focus .control-mark {
+  background-color:#FFFFFF;
+  opacity: 0.6;
+  border-color: 3px solid #83B3D3;
+
+}
+
+.control:active .control-mark {
+  background-color:#FFFFFF;
+  opacity: 0.3;
+}
+
+
+/* Radio */
+.control-input[type="radio"] + .control-mark {
+  border-radius: 50%;
+}
+
+.control-input[type="radio"]:checked + .control-mark::before {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #3F5E72;
+  border-radius: 50%;
+  content: "";
+}
+
 
 .catalog-filter
 {display:flex;
@@ -1030,13 +1079,29 @@ a{
   .sorting-type {
     margin-right: auto;
   } 
+  .select {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 287px;
+    margin-right: auto;
+  }
+  
 
-
-.select-control{height:48px;
-width:287px;
-margin-right:81px;
+.select-control{
+  width: 100%;
+  padding: 13px 19px;
+  padding-right: 48px;
+  font: inherit;
+  background-color: #ffffff;
+  height:48px;
+  width: 287px;
 outline:2px solid #e6e6e6;
 border-radius:4px;
+background-image: url("../images/vectorV.svg");
+background-repeat: no-repeat;
+background-position: right 20px center;
+appearance: none;
 }
 
 .select-control:hover:focus{ 
@@ -1151,12 +1216,10 @@ width: 180px;
 
 .footer-social-link:focus{fill:#68a2ca;}
 
-
+/*
 .footer-social-tw {
   background-image: url("../images/social/social-twitter.svg");
-
-}
-
+}*/
 
 .footer-social-fb {
   background-image: url("../images/social/social-facebook.svg");
@@ -1209,13 +1272,18 @@ width: 180px;
   margin-right:72px;
 }
 
-.contacts.logo-html-1:hover{fill:#756257;}
+.contacts.logo-html-1:hover{
+  fill:#756257;
+}
 
-.contacts.logo-html-1:focus{fill:#756257;}
+.contacts.logo-html-1:focus{
+  fill:#756257;
+}
 
 
-.catalog-filter {display:flex;
-width:1200px;
+.catalog-filter {
+  display:flex;
+  width:1200px;
 
 }
 .catalog-filter-list {
