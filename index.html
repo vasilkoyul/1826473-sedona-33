@@ -163,5 +163,36 @@
 			</section>
 		</div>	
 		</footer>
+		<div class="modal-container">
+			<div class="modal modal-auth">
+				<button class="modal-close-button">
+					<span class="visually-hidden">Закрыть</span>
+				  </button>
+				  <section class="modal-content">
+					<h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+					<form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
+						<p class="field-group">
+						  <label class="date-of-come" for="auth-date">Дата заезда:</label>
+						  <input class="auth-form-field field" type="datetime" id="auth-date" name="auth-date" placeholder="27 апреля 2020">
+						</p>
+						<p class="field-group">
+						  <label class="date-of-entry" for="auth-date-out">Дата выезда:</label>
+						  <input class="auth-form-field field" type="datetime" id="auth-date-out" name="auth-date-out" placeholder="1 сентября 2021">
+						</p>
+						<p class="field-group">
+							<label class="adult-quontity" for="auth-adult">Взрослые:</label>
+							<input class="auth-form-field field" type="number" id="auth-adult" name="auth-adult" placeholder="2">
+						  
+							<label class="child-quontity" for="auth-child">Дети:</label>
+							<input class="auth-form-field field" type="number" id="auth-child" name="auth-child" placeholder="1">
+							<div class="find">
+							
+							<button class=" button find-button" type="submit">Найти</button>
+						</div>
+						</p>
+					  </form>
+				  </section>
+			</div>
+		</div>
 	</body>
 </html>
