@@ -47,7 +47,7 @@
 		<main class="main-container main-info">
 			<div class="page-container">
 			
-				<section id="sedona-with-back" style="height: 485px; background: url(images/index-background.jpeg), url(images/sedona-style.jpeg) no-repeat";>
+				<section id="sedona-picture" style="height: 485px; background: url(images/index-background.jpeg)no-repeat";>
 					<img class="welcome-title" src="images/welcome.svg" alt="Welcome to the gorgeous Sedona" width="458" height="352">
 			
 			</section>
@@ -163,7 +163,7 @@
 			</section>
 		</div>	
 		</footer>
-		<div class="modal-container modal-container-close">
+		<div class="modal-container ">
 			<div class="modal modal-auth">
 				<button class="modal-close-button">
 					<span class="visually-hidden">Закрыть</span>
@@ -182,13 +182,17 @@
 						<p class="field-group">
 							<label class="adult-quontity" for="auth-adult">Взрослые:</label>
 							<input class="auth-form-field field" type="number" id="auth-adult" name="auth-adult" placeholder="2">
-						  
+							<span class="form-label">
 							<label class="child-quontity" for="auth-child">Дети:</label>
-							<div class="popover popover-cart">
-								<div class="popover-content">
-									<h2 class="popover-title">Дети инфо</h2>
-								  </div>
-							</div>
+							</span>
+							<span class="tooltip">
+								<button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label">
+									<svg class="tooltip-icon"width="25" height="25" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12.5" cy="12.5" r="12.5" fill="#83B3D3"/>
+
+									</svg>
+								</button>
+								<span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>	
+							</span>
 
 							<input class="auth-form-field field" type="number" id="auth-child" name="auth-child" placeholder="1">
 							<div class="find">
