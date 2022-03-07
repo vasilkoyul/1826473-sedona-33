@@ -36,6 +36,11 @@ html {
 *::before,
 *::after {box-sizing: border-box;}
 
+#sedona-picture {
+  background: no-repeat url("../images/sedona-style.svg")  0% 100%, url("../images/index-background.jpeg")  no-repeat ;
+  height: 485px;
+}
+
 #numberfav{
   display: flex;
   align-items: center;
