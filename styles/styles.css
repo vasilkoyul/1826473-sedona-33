@@ -272,6 +272,7 @@ margin:31px 240px 80px 240px;
   list-style-type: none;
   width:100%;
  
+ 
 }
 
 /* Item */ 
@@ -282,6 +283,7 @@ margin:31px 240px 80px 240px;
 	color: #FFFFFF;
 	text-align: center;
   padding:97px 90px 87px;
+ 
  
 }
 
@@ -1077,9 +1079,7 @@ a{
   min-width:337px;
   padding-right:192px;
 }
-.hotel-search{ 
-  min-height:417px;
-}
+
 
 .inner-head-title{
   font-size:60px;
@@ -1161,16 +1161,23 @@ cursor: pointer;
 .select-control:active{
   outline:2px solid #E6E6E6;
 }
+.hotel-search{
+  margin-top: 91px;}
 
-    .main-question{margin:0;
+    .main-question{
+      margin:0;
       padding:0;
-    margin:91px 240px 29px 240px;} 
-.order-description{margin:0;
+    margin:0 240px 29px 240px;
+  } 
+.order-description{
+  margin:0;
 padding:0;
-margin:0 240px 56px 240px;}
-.button-all{margin:0;
+margin:0 240px 56px 240px;
+}
+.button-all{
+  margin:0;
 padding:0;
-margin:0 312px 92px 312px;
+margin-bottom: 93px;
 padding:15px 0;
 width:575px;
 }
@@ -1192,7 +1199,7 @@ width:575px;
         padding:0;
         padding: 94px 240px 29px 240px;
         width: 100%;
-        margin-top:93px;
+     
       }
        
     .sign-up-description{
