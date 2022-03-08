@@ -103,6 +103,7 @@ body {
   width: 1060px;
   margin: 0 auto;
 }
+
 .navigation-link--current::after {
   content:"";
   position: absolute;
@@ -355,12 +356,15 @@ line-height: 28px;
  
   } */
 
+  .advantages-icon{
+    margin-top:90px;
+  }
 .advantages-title {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
   margin:0 auto;
-  padding-bottom:30px;
+  margin-top:23px;
  align-items: center;
  text-align:center;
 
@@ -371,6 +375,28 @@ line-height: 28px;
   width:250px;
   text-align: center;
   align-items: center;
+  }
+  .advantages-title-no-icon {
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin:0 auto;
+    margin-top:98px;
+   align-items: center;
+   text-align:center;
+  
+  }
+  .span.number{
+    
+    margin-top:29px;
+  }
+
+  .advantages-description-no-icon{
+    margin:0 auto;
+    margin-top:30px;
+    width:250px;
+    text-align: center;
+    align-items: center;
   }
 
   .card-grid-toggle{
@@ -895,7 +921,19 @@ min-height: 102px;
     width:100%;
     border-radius: 4px;
   }
+  .range-wrapper-inputs:hover{
+    opacity: 0.6;
+  }
+  .range-wrapper-inputs:focus{
+    opacity: none;
+    outline:2px solid #81B3D2;
+   
+  }
   
+  .range-wrapper-inputs:active{
+    background-color: #756257;
+  outline: 2px solid #FFFFFF;
+}
   .catalog-filter-label {
     display: flex;
     margin-right: 5px;
@@ -921,6 +959,7 @@ min-height: 102px;
     font-size: 18px;
     line-height: 23px;
     color: #FFFFFF;
+    
     
   }
  
@@ -1093,10 +1132,27 @@ a{
   }
   .breadcrumbs{  
     display: flex;
+    justify-content: start;
+    text-align: start;
     margin: 0;
     padding: 0; 
-    color: #242424;
+    color: #FFFFFF;
     list-style-type: none;
+    width: 73px;
+    height:21px ;
+  
+  }
+
+  .breadcrumbs:hover{
+    opacity:0.6;
+  }
+  .breadcrumbs:focus{
+    outline: 3px solid #83B3D3;
+    border-radius: 2px;
+
+  }
+  .breadcrumbs:active{
+    opacity: 0.3;
   }
 .breadcrumbs-link{ 
   margin-right: 26px;
@@ -1107,7 +1163,9 @@ a{
   background-size:5px 8px;
   background-position: center right 20px;
 }
-.breadcrumbs-item{order:-1;}
+.breadcrumbs-item{
+  order:1;
+}
 
   .sorting-container {
     display: flex;
@@ -1233,6 +1291,7 @@ margin: 0 auto;
   margin:0;
   margin-right: auto;
   max-width: 190px;
+ 
 }
 
 
@@ -1247,49 +1306,56 @@ width: 180px;
  
  margin:0 72px;
  margin-top: 50px;
+ 
+ 
 }
     
 .footer-social-item {
   width: 20px;
   height: 16px;
   margin-right:30px;
-  color: #83B3D3;
+  fill: #83B3D3;
 
 
 }
+
+
+
 .footer-social-item:nth-child(3n) {
   margin-right: 0;
 }
 
 
 .footer-social-link {
-  display: block;
-  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
   background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center;
- 
-
+  fill: #83B3D3;
  
 }
-.footer-social-link:hover{color:#68a2ca;}
 
-.footer-social-link:focus{fill:#68a2ca;}
+.footer-social-link:hover{
+  fill:#68a2ca;
+}
+
+.footer-social-link:focus{
+  fill:#68a2ca;
+outline: 3px solid #83B3D3;
+border-radius: 3px;
+
+}
+
+.footer-social-link:active{
+  opacity:0.3;
+  outline:none;
+}
 
 
-/* .footer-social-tw {
-  background-image: url("../images/social/social-twitter.svg");
-} */
-
-/* .footer-social-fb {
-  background-image: url("../images/social/social-facebook.svg");
-  
-} */
-
-/* .footer-social-yt {
-  background-image: url("../images/social/social-youtube.svg");
-
-} */
 .modal-container {
   position: fixed;
   top: 0;
@@ -1446,7 +1512,6 @@ width: 180px;
   display: flex;
   font-size: 40px;
   line-height:40px;
-  font-weight: 700;
   color: #000000;
   background-color:#ffffff;
   text-transform: uppercase;
@@ -1454,6 +1519,7 @@ width: 180px;
   width: 720px;
   justify-content: center;
   text-align: center;
+  height:40px;
 
 }
 
@@ -1462,10 +1528,13 @@ width: 180px;
     color:#756257;}
   .contacts-phone:focus{
     color:#756257;
-  outline:#83B3D3;}
+  outline:3px solid #83B3D3;
+  border-radius: 3px;
+}
   .contacts-phone:active{
     color:#756257;
-  opacity:0.3;}
+  opacity:0.3;
+outline: none;}
   
 
 .contacts{
@@ -1476,19 +1545,31 @@ width: 180px;
 
 
 .logo-html-1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width:115px;
+  height:33px;
   margin:0;
   margin-top: 42px;
   margin-bottom:44px;
   margin-right:72px;
+  color:#000000;
 }
-
-.contacts.logo-html-1:hover{
+.logo-html-1:hover{
   fill:#756257;
 }
-
-.contacts.logo-html-1:focus{
+.logo-html-1:focus{ 
   fill:#756257;
+  outline: 3px solid #83B3D3;
+  border-radius: 3px;
 }
+.logo-html-1:active{ 
+  fill:#756257;
+  opacity:0.3;
+outline: none;}
+
+
 
 
 .catalog-filter {
