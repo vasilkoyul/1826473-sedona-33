@@ -305,8 +305,7 @@ line-height: 28px;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
- 
- 
+
   }
 
   
@@ -340,21 +339,6 @@ line-height: 28px;
   /* padding: 184px 75px 20px; */
 }
 
-/* Title */
-/* .icon-1{ 
-  background: no-repeat url("../images/icons/icon-1.svg");
- background-repeat:no-repeat;
-
-} */
-/* .icon-2
-{background: no-repeat url("../images/icons/icon-2.svg");
-  background-repeat:no-repeat;
- } */
-/* .icon-3{
-  background: no-repeat url("../images/icons/icon-3.svg");
-  background-repeat:no-repeat;
- 
-  } */
 
   .advantages-icon{
     margin-top:90px;
@@ -368,6 +352,11 @@ line-height: 28px;
  align-items: center;
  text-align:center;
 
+}
+
+.span.numer{
+  display: block;
+margin-top: 23px;
 }
 .advantages-description{
   margin:0 auto;
@@ -386,10 +375,7 @@ line-height: 28px;
    text-align:center;
   
   }
-  .span.number{
-    
-    margin-top:29px;
-  }
+ 
 
   .advantages-description-no-icon{
     margin:0 auto;
@@ -1641,13 +1627,23 @@ outline: none;}
 
 
 }
+.ubutton:hover{
+  background-color:#68A2CA;
+}
 
+.ubutton:focus{
+  background-color:#68A2CA;
+  outline: 2px solid #756257;
+}
+
+.ubutton:active{
+  opacity: 0.3;
+  outline: none;
+}
 .newsletter{
   display: flex;
   justify-content: center;
-  align-items: center;
- 
- 
+  align-items: center; 
  
 }
 .newsletter a{
