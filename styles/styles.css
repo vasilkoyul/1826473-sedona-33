@@ -282,9 +282,8 @@ margin:31px 240px 80px 240px;
 	background:#83B3D3;
 	color: #FFFFFF;
 	text-align: center;
-  padding:97px 90px 87px;
- 
- 
+  align-items: center;
+  /* padding:97px 90px 87px; */
 }
 
 .advantages-item h3{
@@ -312,21 +311,23 @@ line-height: 28px;
   
   
 .advantages-item1{
-	align-items: top;
+	align-items: center;
 	background: #f0f6fa;
 	width: 400px;
 	min-height:384px;
 	text-align: center;
-  padding: 184px 75px 20px;
+  /* padding: 184px 75px 20px; */
 
 
 }
 .advantages-item2{
 	background: #FFFFFF;
+  margin: 0 auto;
+  align-items: center;
 	width: 400px;
   min-height:384px;
 	text-align: center;
-  padding: 184px 75px 20px;
+  /* padding: 184px 75px 20px; */
 }
 
 .advantages-item3{
@@ -334,42 +335,42 @@ line-height: 28px;
 	width: 400px;
 	min-height:384px;
 	text-align: center;
-  padding: 184px 75px 20px;
+  align-items: center;
+  /* padding: 184px 75px 20px; */
 }
 
 /* Title */
-.icon-1{ 
+/* .icon-1{ 
   background: no-repeat url("../images/icons/icon-1.svg");
  background-repeat:no-repeat;
 
-}
-.icon-2
+} */
+/* .icon-2
 {background: no-repeat url("../images/icons/icon-2.svg");
   background-repeat:no-repeat;
- }
-.icon-3{
+ } */
+/* .icon-3{
   background: no-repeat url("../images/icons/icon-3.svg");
   background-repeat:no-repeat;
  
-  }
+  } */
 
 .advantages-title {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-  margin:0;
-  padding:0;
+  margin:0 auto;
   padding-bottom:30px;
- 
+ align-items: center;
+ text-align:center;
 
 }
 .advantages-description{
-  margin:0;
-  padding: 0;
+  margin:0 auto;
   margin-top:20px;
   width:250px;
   text-align: center;
-
+  align-items: center;
   }
 
   .card-grid-toggle{
@@ -1275,20 +1276,20 @@ width: 180px;
 
 .footer-social-link:focus{fill:#68a2ca;}
 
-/*
-.footer-social-tw {
-  background-image: url("../images/social/social-twitter.svg");
-}*/
 
-.footer-social-fb {
+/* .footer-social-tw {
+  background-image: url("../images/social/social-twitter.svg");
+} */
+
+/* .footer-social-fb {
   background-image: url("../images/social/social-facebook.svg");
   
-}
+} */
 
-.footer-social-yt {
+/* .footer-social-yt {
   background-image: url("../images/social/social-youtube.svg");
 
-}
+} */
 .modal-container {
   position: fixed;
   top: 0;
