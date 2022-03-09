@@ -804,30 +804,29 @@ display: block;
   height: 20px;
   background-color:#FFFFFF;
   border-radius: 4px;
-  cursor: pointer;
-  }
+  cursor: pointer; 
+}
 
 .control:hover .control-mark {
-  background-color:#FFFFFF;
-  opacity: 0.6;
+  background-color: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.6);
 }
-.control:focus .control-mark {
-  background-color:#FFFFFF;
-  opacity: 0.6;
-  border-color: 3px solid #83B3D3;
 
+.control:focus .control-mark {
+  
+  background-color: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.6);
+  border-color: 3px solid #83B3D3;
 }
 
 .control:active .control-mark {
-  background-color:#FFFFFF;
-  opacity: 0.3;
+ 
+  background-color: rgba(255,255,255, 0.3);
+  color: rgba(255,255,255, 0.3);
 }
 
 
 /* Radio */
-.control-input[type="radio"] + .control-mark {
-  border-radius: 50%;
-}
 
 .control-input[type="radio"]:checked + .control-mark::before {
   position: absolute;
@@ -839,7 +838,17 @@ display: block;
   border-radius: 50%;
   content: "";
 }
-
+/*checkbox*/
+.control-input[type="checkbox"]:checked + .control-mark::before {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 5px;
+  height: 10px;
+  background-color: #3F5E72;
+  border-radius: 30%;
+  content: " ";
+}
 
 .catalog-filter
 {display:flex;
@@ -1162,25 +1171,24 @@ a{
     display: flex;
     justify-content: start;
     text-align: start;
-    
     margin: 0;
     padding: 0; 
     color: #FFFFFF;
     list-style-type: none;
     width: 73px;
     height:21px ;
-  
   }
 
-  .breadcrumbs-link::after {
-    content:"";
-   background-image: url("../images/arrow-right.svg");
-   color: #ffffff;
-   background-repeat: no-repeat;
-   background-size:5px 8px;
-   padding-right:  45px;
-
-
+  .breadcrumbs-link::before {
+   content:"";
+    background-image: url("../images/arrow-right.svg");
+    color: #ffffff; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:5px 8px;
+    padding-right:  45px;
+    text-align: center;
+    align-items: center;
   }
 
   .breadcrumbs:hover{
@@ -1203,9 +1211,9 @@ a{
 }
 .breadcrumbs-item-house{
   padding-left:73px ;
-
 }
-  .sorting-container {
+
+.sorting-container {
     display: flex;
     margin-bottom: 56px;
     padding: 50px; 
