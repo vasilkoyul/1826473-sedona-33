@@ -464,7 +464,7 @@ margin-top: 23px;
 }
 .button:focus{
   background-color: #68a2ca;
-outline: 3px solid #ffffff;
+  outline: 3px solid #757256;
 }
 
 .button:active{
@@ -1413,7 +1413,7 @@ border-radius: 3px;
 .modal {
   position: relative;
   margin: auto;
-  padding: 70px;
+  padding: 62px 70px 70px 70px;
   background-color: #ffffff;
 }
 
@@ -1421,16 +1421,17 @@ border-radius: 3px;
   display: none;
 }
 
-
 .modal-auth {
-  width: 645px;
+  width: 715px;
+  min-height: 560px;
+  border-radius: 30px;
 }
 
 .modal-close-button {
   position: absolute;
   padding: 0;
-  top: 0px;
-  right: 0px;
+  top: 54px;
+  right: 70px;
   width: 53px;
   height: 53px;
   background-color: #f2f2f2;
@@ -1443,33 +1444,58 @@ border-radius: 3px;
 } 
 .modal-title {
   margin: 0;
-  margin-bottom: 32px;
   font-family: "PT Sans", sans-serif;
   font-size: 30px;
-  line-height: 67px;
+  line-height: 40px;
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
+  height: 67px;
 }
+
+
+.field-group{
+  font-weight: 700;
+  margin:0;
+  margin-top:40px;
+
+
+}
+
+
 
 .auth-form .field-group {
   margin: 0;
-  margin-bottom: 40px;
-  display: flex;
   justify-content: space-between;
+  font-weight: 700;
+ 
+
 
 }
+
+.auth-form-field.field-age{
+  font-weight: 700;
+  width: 133px;
+  height:50px;
+  border-radius: 4px;
+  outline: none;
+  background-color: #f2f2f2;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  text-align: center;
+  margin-left: 10px;
+  cursor: pointer;
+
+ 
+}
+
 
 
 .auth-form-user-options .control-label {
-  font-weight: 400;
+  font-weight: 700;
 }
 
-.auth-form .field {
-  width: 420px;
-
-  
-}
 
 .auth-form-recovery {
   line-height: 22px;
@@ -1482,6 +1508,27 @@ border-radius: 3px;
   margin-bottom: 16px;
 }
 
+.form-label{
+  padding-right: 20px;
+}
+
+
+.auth-form-field.field{
+  font-weight: 700;
+  color: #000000;
+  min-width: 420px;
+  height:50px;
+  border-radius: 4px;
+  outline: none;
+  background-color: #f2f2f2;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+ 
+
+
+}
 
 
 .auth-form-register {
@@ -1501,6 +1548,7 @@ border-radius: 3px;
   padding: 0;
   margin: 0;
   display: block;
+ 
 }
 
 .tooltip-icon {
@@ -1508,6 +1556,7 @@ border-radius: 3px;
   height: 100%;
   color: #83B3D3;
   display: block;
+ 
 }
 .tooltip-toggle:hover .tooltip-icon {
   color: #68A2CA;
@@ -1550,6 +1599,14 @@ border-radius: 3px;
   margin-left: auto;
   margin-right: auto;
 }
+
+.find-button{
+  width:575px;
+  height: 60px;
+  margin-top:40px;
+  border-radius: 10px;
+}
+
 
   /* Phone */
 
