@@ -586,7 +586,9 @@ margin:0;
 list-style-type: none;
 
 }
-
+.hotel-card-image{
+  display:block;
+}
 .hotel-card-image:hover{
   opacity: 0.6;}
 
@@ -1324,19 +1326,25 @@ width:575px;
 
 
          /*Footer*/
-.page-footer{height: 120px;
-width:1200px;}
+.page-footer{
+  height: 120px;
+width:1200px;
+padding:0 72px;
+}
 .page-footer-container {
 display: flex;
-height:120px;
+min-height:120px;
 margin: 0 auto;
 
 }
 
 
 .footer-social {
+  display: flex;
   margin:0;
   max-width: 190px;
+  align-items:center;
+  justify-content: flex-start;
  
 }
 
@@ -1349,16 +1357,15 @@ margin: 0;
 padding: 0;
 list-style-type: none;
 width: 180px;
- margin-top: 50px;
- margin-left:72px;
+
  
  
 }
     
 .footer-social-item {
-  width: 20px;
-  height: 16px;
-  margin-right:30px;
+  width: 40px;
+  height: 40px;
+  margin-right:10px;
   fill: #83B3D3;
 
 
@@ -1376,7 +1383,7 @@ width: 180px;
   align-items: center;
   justify-content: center;
   width: 40px;
-  height: 40px;  
+  height: 40px;
   background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center;
@@ -1639,7 +1646,8 @@ background-position: right;
   text-decoration: none;
   justify-content: center;
   text-align: center;
-  height:40px;
+  align-items: center;
+  padding:15px;
  
 }
 
@@ -1650,6 +1658,7 @@ background-position: right;
     color:#756257;
   outline:3px solid #83B3D3;
   border-radius: 3px;
+  
 }
   .contacts-phone:active{
     color:#756257;
@@ -1657,25 +1666,29 @@ background-position: right;
 outline: none;}
   
 
-.contacts{
-  margin:40px 180px ;
-  }
+.contacts{display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+ align-items: center;
+
+}
 
 
 
 
 .logo-html-1{
   display: flex;
-  justify-content: center;
+  align-self: center;
+  align-items: center;
+  justify-content: flex-end;
   text-align: center;
-  margin:auto;
-  margin-top: 42px;
-  margin-bottom:44px;
-  margin-right:72px;
-  margin-left:53px;
-  width: 160px;
-  height:70px;
+  margin:0;
 
+width: 160px;
+  min-height:70px;
+padding:15px 22px;
  
 }
 .number{
@@ -1691,7 +1704,7 @@ fill:#000000;
 .logo-html:focus{ 
   fill:#756257;
   outline: 3px solid #83B3D3;
-  padding:10px;
+  padding:15px;
   border-radius: 3px;
 }
 .logo-html-svg:active{ 
