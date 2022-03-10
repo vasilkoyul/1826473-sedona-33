@@ -1442,6 +1442,17 @@ border-radius: 3px;
   background-position: center;
   cursor: pointer;
 } 
+
+.modal-close-button:hover {
+  background-color: #E6E6E6;
+}
+.modal-close-button:focus {
+  background-color: #E6E6E6;
+  outline: 3px solid #83B3D3;
+}
+.modal-close-button:active {
+  color: rgba(255,255,255, 0.3);
+}
 .modal-title {
   margin: 0;
   font-family: "PT Sans", sans-serif;
@@ -1468,7 +1479,6 @@ border-radius: 3px;
   margin: 0;
   justify-content: space-between;
   font-weight: 700;
- 
 
 
 }
@@ -1486,9 +1496,16 @@ border-radius: 3px;
   text-align: center;
   margin-left: 10px;
   cursor: pointer;
+  background-image: url("../images/plus.svg"), 
+  url("../images/minus.svg");
+  background-repeat: no-repeat;
+
+
+
 
  
 }
+
 
 
 
@@ -1525,7 +1542,9 @@ border-radius: 3px;
   border: none;
   outline: none;
   cursor: pointer;
- 
+ background-image: url("../images/calendar.svg");
+ background-repeat: no-repeat;
+background-position: right;
 
 
 }
