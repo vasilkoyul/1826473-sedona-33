@@ -81,6 +81,9 @@ body {
   background-color:  #ffffff;
   width:1200px;
  
+
+ 
+ 
 }
 .visually-hidden {
   position: absolute;
@@ -830,6 +833,9 @@ display: block;
 
 /* Radio */
 
+.control-mark.control-radio{
+  border-radius: 50%;
+}
 .control-input[type="radio"]:checked + .control-mark::before {
   position: absolute;
   top: 5px;
@@ -843,13 +849,12 @@ display: block;
 /*checkbox*/
 .control-input[type="checkbox"]:checked + .control-mark::before {
   position: absolute;
-  top: 5px;
-  left: 5px;
-  width: 5px;
-  height: 10px;
-  background-color: #3F5E72;
-  border-radius: 30%;
-  content: " ";
+ background-image: url("../images/checked.svg");
+ fill: #3F5E72;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 12px 10px;
+ content: " ";
 }
 
 .catalog-filter
@@ -966,13 +971,14 @@ min-height: 102px;
 }
   .catalog-filter-label {
     display: flex;
-    margin-right: 5px;
+    position: absolute;
     font-size: 18px;
-    padding-right: 10px;
     line-height: 23px;
     color: #FFFFFF;
     opacity: 0.3;
-    align-items: center;
+    left:800px;
+   
+
   }
 
   .range-input {
@@ -1129,6 +1135,20 @@ right: 0;
  
 }
 
+.button.pagination-show-more:hover{ 
+  outline:2px solid #83B3D3;
+}
+  .button.pagination-show-more:focus{ 
+    outline:2px solid #83B3D3;
+  }
+
+.button.pagination-show-more:active{
+  outline:2px solid #E6E6E6;
+  color:rgba(51,51,51,0.3); 
+
+}
+
+
 .email{
   color:#f2f2f2 ;
 }
@@ -1184,7 +1204,8 @@ a{
   .breadcrumbs-link::before {
    content:"";
     background-image: url("../images/arrow-right.svg");
-    color: #ffffff; 
+    fill: #ffffff;
+    opacity: 0.3; 
     background-position: center;
     background-repeat: no-repeat;
     background-size:5px 8px;
@@ -1193,17 +1214,31 @@ a{
     align-items: center;
   }
 
-  .breadcrumbs:hover{
-    opacity:0.6;
+ 
+  .breadcrumbs-item-house:hover{
+  opacity:0.6;
   }
-  .breadcrumbs:focus{
+  .breadcrumbs-item-house:focus{
     outline: 3px solid #83B3D3;
     border-radius: 2px;
 
   }
-  .breadcrumbs:active{
+  .breadcrumbs-item-house:active{
     opacity: 0.3;
   }
+
+  .breadcrumbs-item:hover{
+    opacity:0.6;
+  }
+  .breadcrumbs-item:focus{
+    outline: 3px solid #83B3D3;
+    border-radius: 2px;
+
+  }
+  .breadcrumbs-item:active{
+    opacity: 0.3;
+  }
+
 .breadcrumbs-link{
   color:inherit;
 }
@@ -1268,6 +1303,7 @@ cursor: pointer;
 .select-control:active{
   outline:2px solid #E6E6E6;
   color:rgba(51,51,51,0.3);
+  
 }
 .hotel-search{
   margin-top: 91px;}
