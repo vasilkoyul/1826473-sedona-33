@@ -382,7 +382,7 @@ line-height: 28px;
   line-height: 28px;
   text-transform: uppercase;
   margin:0 auto;
-  margin-top:20px;
+  margin-top:19px;
  align-items: center;
  text-align:center;
 
@@ -595,6 +595,7 @@ position: absolute;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  height: 408px;
 }
 
 .hotel-card{
@@ -1203,6 +1204,7 @@ a{
   font-weight: 700;
   min-width:337px;
   padding-right:192px;
+  
 }
 
 
@@ -1214,6 +1216,10 @@ a{
   margin:0;
   padding:35px 0 5px 72px;
   min-width: 528px;
+  position: relative;
+  top:9px;
+  right:1px;
+  
   }
   .breadcrumbs{  
     display: flex;
@@ -1446,10 +1452,12 @@ margin: 0 auto;
 .footer-social-list {
   flex-wrap: wrap; 
   display: flex;
+  position: relative;
 margin: 0;
 padding: 0;
 list-style-type: none;
 width: 180px;
+bottom:4px;
 
  
  
@@ -1732,6 +1740,7 @@ background-position: right;
 
 .contacts-phone{
   display: flex;
+  position: relative;
   font-size: 40px;
   line-height:40px;
   color: #000000;
@@ -1742,6 +1751,7 @@ background-position: right;
   text-align: center;
   align-items: center;
   padding:15px;
+  left:12px;
  
 }
 
@@ -1831,7 +1841,7 @@ fill:#000000;
 }
 
 .catalog-filter-item:not(:last-child) {
-  margin-bottom: 19px;
+  margin-bottom: 13px;
 }
 
 .catalog-filter-title{
@@ -1853,6 +1863,8 @@ fill:#000000;
   box-shadow: none;
   outline: none;
   border: none;
+  line-height: 26px;
+  font-size: 18px;
  
 }
 
@@ -1912,6 +1924,9 @@ outline: 1px solid #FF5757;}
   display: flex;
   justify-content: center;
   align-items: center; 
+  position: relative;
+  left:1px;
+  top:-2px;
  
 }
 .newsletter a{
