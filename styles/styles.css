@@ -1568,7 +1568,7 @@ border-radius: 3px;
   position: fixed;
   top: 0;
   left: 0;
-  display: flex;
+   display: flex; 
   width: 100%;
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
@@ -1631,7 +1631,7 @@ border-radius: 3px;
 .field-group{
   font-weight: 700;
   margin:0;
-  margin-top:34px;
+  margin-top:25px;
 
 }
 
@@ -1657,10 +1657,20 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 .input-error {
+  margin:0;
   color: #FF5757;
+  padding-left: 40px;
+  width: 100%;
+  text-align: center;
 }
 .input-correct{
+  margin: 0;
+  width: 100%;
   color:#333333;
+  padding-left: 140px;
+  padding-right: 40px;
+
+  text-align: center;
 }
 .auth-form-field.field-age{
   font-weight: 700;
@@ -1674,6 +1684,7 @@ input[type=number] {
   border: none;
   outline: none;
   text-align: center;
+  align-items: center;
   margin-right: 0;
   cursor: pointer;
   background-repeat: no-repeat;
@@ -1681,6 +1692,15 @@ input[type=number] {
   padding-left: 40px;
   padding-right: 40px;
 }
+ .age-adult{
+  width: 50%;
+  float: left;
+}
+
+.age-kid{
+ width: 50%;
+ float: left;
+} 
 
 .field-age-wrapper {
   position: relative;
@@ -1702,11 +1722,13 @@ input[type=number] {
 .field-age-both{
   display: flex;
   flex-wrap: wrap;
+  margin:0;
+  float: left;
 }
 
 .field-calendar {
   position: relative;
-
+  font-weight: 700;
 }
 
 .field-calendar button {
@@ -1737,6 +1759,8 @@ input[type=number] {
 
 .plus-minus{
   fill:rgba(0,0,0,0.3);
+  background-color: transparent;
+ 
  
 }
 .plus-minus:hover{
@@ -1746,6 +1770,7 @@ input[type=number] {
   fill:#000000;
   outline: 3px solid #83B3D3;
   border-radius: 3px;
+  
 }
 
 .plus-minus:active{
@@ -1820,6 +1845,9 @@ input[type=number] {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 .date-of-entry{
@@ -1836,26 +1864,31 @@ input[type=number] {
 }
 
 .tooltip {  
-  position: absolute;
+  /* position: absolute; */
   width: 25px;
   height: 25px;
-  margin: 12px 0 0px -9px;
+  margin: 0 auto;
 }
 
 .tooltip-toggle {
   border: none;
-  background-color: transparent;
+  background-color: #83B3D3;
+  width: 25px;
+  height: 25px;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   display: block;
+  color: #fff;
+
+  border-radius: 50%;
+
 }
 
 .tooltip-icon {
   width: 100%;
   height: 100%;
-  color: #83B3D3;
   display: block;
-
+z-index: -1;
 
 }
 .tooltip-toggle:hover .tooltip-icon {
@@ -1874,10 +1907,10 @@ input[type=number] {
   display: block;
   width: 256px;
   position: absolute;
-  top: 100%;
+  /* top: 100%; */
   margin-top: 15px;
-  left: 25%;
-  transform: translateX(-25%);
+    right: 9%; 
+ transform: translateX(-25%); 
   z-index: 1;
   display: none;
 }
