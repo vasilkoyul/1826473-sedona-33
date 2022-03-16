@@ -534,7 +534,8 @@ color:rgba(255,255,255, 0.3);
 outline: none;
 }
 
-.button.button-sign-up{size: 20px;
+.button.button-sign-up{
+  font-size: 20px;
   width:200px;
 height: 60px;
 border-radius: 0 10px 10px 0;
@@ -633,7 +634,6 @@ position: absolute;
 
 .hotel-card-image:focus{
   outline: 3px solid #83B3D3;
-  opacity: none;
 }
 
 .hotel-card-image:active{
@@ -728,7 +728,6 @@ outline: none;
     color: #ffffff;
     width: 150px;
     height: 37px;
-    padding-left:auto;
     text-align: center;
     padding:10px 0;
     margin-left:26px;
@@ -1037,7 +1036,6 @@ min-height: 102px;
     opacity: 0.6;
   }
   .range-wrapper-inputs:focus{
-    opacity: none;
     outline:2px solid #81B3D2;
 
   }
@@ -1137,7 +1135,7 @@ margin-left: 4px;
   color: #ffffff;
   text-decoration: none;
   line-height: 25px;
-  size:20px;
+  font-size:20px;
   border-radius: 4px;
   padding-top: 25%;
 
