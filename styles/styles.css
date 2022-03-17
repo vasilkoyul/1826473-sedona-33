@@ -1638,6 +1638,9 @@ input[type=number] {
   width: 133px;
 }
 
+.child-quontity{
+  padding-left: 56px;
+}
 .field-age-wrapper button {
   position: absolute;
   height: 100%;
