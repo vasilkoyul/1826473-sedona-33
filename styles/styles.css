@@ -1108,8 +1108,8 @@ input[type="checkbox"]{
 .pagination-link{
   display: block;
   box-sizing: border-box;
-  width: 55px;
-  height: 55px;
+  min-width: 55px;
+  min-height: 55px;
   font-weight: 700;
   color: #ffffff;
   text-decoration: none;
