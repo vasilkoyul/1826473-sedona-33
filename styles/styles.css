@@ -14,21 +14,7 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: "PT Sans";
-  font-style: italic;
-  font-weight: 400;
-  src: url("fonts/pt-sans-italic.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "PT Sans";
-  font-style: italic;
-  font-weight: 700;
-  src: url("fonts/pt-sans-bold-italic.woff2") format("woff2");
-  font-display: swap;
-}
- html {
+html {
   height: 100%;
 }
 
@@ -103,6 +89,8 @@ body {
   display: flex;
   margin: 0 auto;
   min-height: 65px;
+  justify-content: space-between;
+  padding-right: 70px;
 }
 
 .navigation-link--current::after {
@@ -228,7 +216,6 @@ body {
 
 .navigation-user {
   margin: 0;
-  margin-left: 282px;
 }
 
 .navigation-item-search{
@@ -610,6 +597,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  background-color: #83B3D3;
 }
 
 .hotel-card{
