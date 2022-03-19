@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   src: url("fonts/pt-sans-regular.woff2") format("woff2");
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
   src: url("fonts/pt-sans-bold.woff2") format("woff2");
@@ -1983,8 +1983,11 @@ input::-webkit-inner-spin-button {
 }
 
 .emailactive:focus{
+
   background:#e6e6e6;
-  border:3px solid #83B3D3;
+  outline:3px solid #83B3D3;
+
+
 }
 
 .emailactive:disabled{
