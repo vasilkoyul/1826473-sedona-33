@@ -25,6 +25,7 @@ html {
 .sedona-picture {
   background: no-repeat url("../images/sedona-style.svg")  0% 100%, url("../images/index-background.jpeg")  no-repeat ;
   height: 485px;
+  background-color: #83B3D3;
 }
 
 .numberfav{
@@ -550,6 +551,7 @@ body {
   background: no-repeat url("../images/background.jpeg");
   color:#ffffff;
   height:411px;
+  background-color: #83B3D3;
 }
 
 .sign-up-div{
