@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "PT Sans";
+  font-family: "PT Sans" sans-serif;
   font-style: normal;
   font-weight: 400;
   src: url("fonts/pt-sans-regular.woff2") format("woff2");
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "PT Sans";
+  font-family: "PT Sans" sans-serif;
   font-style: normal;
   font-weight: 700;
   src: url("fonts/pt-sans-bold.woff2") format("woff2");
@@ -39,7 +39,7 @@ html {
   top: calc(50% - 20px/2 - 9px);
   background: #7DB54F;
   border-radius: 50%;
-  font-family: PT Sans;
+  font-family:"PT Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
@@ -305,7 +305,7 @@ body {
   width: 100%;
 }
 .advantages-item h3{
-  font-family: PT Sans;
+  font-family:"PT Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -313,7 +313,7 @@ body {
 }
 
 .advantages-item span, p{
-  font-family: PT Sans;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -1188,7 +1188,7 @@ input[type="checkbox"]{
 }
 
 .pagination-show-more{
-  font: inherit;
+  font-family: inherit;
   background-color: #ffffff;
   margin-top: 5px;
   width: 156px;
@@ -1404,7 +1404,7 @@ a{
 }
 
 .sign-up-description{
-  font-family: PT Sans;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -1731,7 +1731,7 @@ input::-webkit-inner-spin-button {
 }
 
 .auth-form-field.field{
-  font-family:"PT Sans", sans-serif; ;
+  font-family:"PT Sans", sans-serif;
   font-weight: 700;
   font-size: 16px;
   margin: 0 0 7px 50px;
@@ -2000,7 +2000,7 @@ input::-webkit-inner-spin-button {
   justify-content: center;
   align-items: center;
   border-radius: 0px 10px 10px 0px ;
-  font-family: PT Sans;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
