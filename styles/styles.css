@@ -22,12 +22,12 @@ html {
 *::before,
 *::after {box-sizing: border-box;}
 
-#sedona-picture {
+.sedona-picture {
   background: no-repeat url("../images/sedona-style.svg")  0% 100%, url("../images/index-background.jpeg")  no-repeat ;
   height: 485px;
 }
 
-#numberfav{
+.numberfav{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,7 +46,7 @@ html {
   color: #FFFFFF;
 }
 
-#favor{
+.favor{
   position: absolute;
   width: 18.05px;
   height: 17px;
@@ -177,11 +177,11 @@ body {
   fill:rgba(117,98,87,0.3);
 }
 
-#numberfav:hover{
+.numberfav:hover{
   color:rgba(255,255,255,1);
 }
 
-#numberfav:active{
+.numberfav:active{
   color:rgba(255,255,255,0.3);
 }
 
