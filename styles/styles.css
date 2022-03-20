@@ -1681,12 +1681,14 @@ input::-webkit-inner-spin-button {
 }
 
 .field-age-wrapper button.minus {
+  background-color: transparent;
   left: 0;
   top: 0;
 }
 
 
 .field-age-wrapper button.plus {
+  background-color: transparent;
   right: 0;
   top: 0;
 }
@@ -1794,7 +1796,8 @@ input::-webkit-inner-spin-button {
 .tooltip {
   width: 25px;
   height: 25px;
-  margin: 0 auto;
+  margin-right:auto;
+  padding-left: 10px;
 }
 
 .tooltip-toggle {
