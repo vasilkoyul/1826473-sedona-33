@@ -1487,7 +1487,7 @@ a{
 .modal {
   position: relative;
   margin: auto;
-  padding: 62px 70px 70px 70px;
+  padding: 62px 70px 68px 70px;
   background-color: #ffffff;
 }
 
@@ -1562,6 +1562,10 @@ a{
   margin-bottom:40px;
 }
 
+.auth-form{
+  margin-top: 36px;
+}
+
 .auth-form .field-group {
   margin: 0;
   justify-content: space-between;
@@ -1586,10 +1590,12 @@ input::-webkit-inner-spin-button {
 .input-error {
   margin:0;
   color: #FF5757;
-  padding-left: 40px;
+  padding-left: 154px;
   width: 100%;
-  text-align: center;
-  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 40px;
+  margin-top: -6px;
+  margin-bottom: 16px;
   height: 29px;
 }
 
@@ -1597,11 +1603,13 @@ input::-webkit-inner-spin-button {
   margin: 0;
   width: 100%;
   color:#333333;
-  padding-left: 140px;
+  padding-left: 154px;
   padding-right: 40px;
-  text-align: center;
+  font-size: 16px;
+  line-height: 40px;
+  margin-top: -6px;
+  margin-bottom: 16px;
   height: 29px;
-  margin-bottom: 15px;
 }
 
 .auth-form-field.field-age{
@@ -1632,7 +1640,7 @@ input::-webkit-inner-spin-button {
 }
 
 .age-kid{
-  width: 50%;
+  width: 49%;
   float: left;
 } 
 
@@ -1642,11 +1650,11 @@ input::-webkit-inner-spin-button {
 }
 
 .child-quontity{
-  padding-left: 56px;
+  padding-left: 54px;
 }
 .field-age-wrapper button {
   position: absolute;
-  height: 100%;
+  height: 30px;
   width: 30px;
   border: none;
   display: flex;
@@ -1675,22 +1683,22 @@ input::-webkit-inner-spin-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  right:0;
-  top:0;
+  right:-6px;
+  top:2px;
   margin-right: 19px;
 }
 
 .field-age-wrapper button.minus {
   background-color: transparent;
-  left: 0;
-  top: 0;
+  left: 8px;
+  top: 11px;
 }
 
 
 .field-age-wrapper button.plus {
   background-color: transparent;
-  right: 0;
-  top: 0;
+  right: 13px;
+  top: 11px;
 }
 
 .plus-minus{
@@ -1736,7 +1744,7 @@ input::-webkit-inner-spin-button {
   font-family:"PT Sans", sans-serif;
   font-weight: 700;
   font-size: 16px;
-  margin: 0 0 7px 50px;
+  margin: 0 0 0 50px;
   padding: 0 0 0 21px;
   fill: #000000;
   min-width: 420px;
@@ -1797,6 +1805,7 @@ input::-webkit-inner-spin-button {
   width: 25px;
   height: 25px;
   margin-right:auto;
+  margin-top: 4px;
   padding-left: 10px;
 }
 
@@ -1836,7 +1845,7 @@ input::-webkit-inner-spin-button {
   width: 256px;
   position: absolute;
   margin-top: 15px;
-  right: 5%; 
+  right: 43px; 
   transform: translateX(-25%); 
   z-index: 1;
   display: none;
@@ -1863,7 +1872,7 @@ input::-webkit-inner-spin-button {
 .find-button{
   width:575px;
   height: 60px;
-  margin-top:40px;
+  margin-top:41px;
   border-radius: 10px;
 }
 
